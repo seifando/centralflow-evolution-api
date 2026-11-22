@@ -1,0 +1,13 @@
+{
+  "name": "centralflow-evolution-extension-tests",
+  "version": "0.6.1",
+  "private": true,
+  "description": "Development-only contract tests; not a separate WhatsApp service",
+  "scripts": {
+    "test": "node test.cjs"
+  },
+  "devDependencies": {
+    "express": "4.21.2",
+    "typescript": "5.9.3"
+  }
+}

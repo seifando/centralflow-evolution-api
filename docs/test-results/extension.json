@@ -1,0 +1,33 @@
+{
+  "passed": 26,
+  "failed": 0,
+  "scope": "Código real da extensão com socket controlado e servidor Express real; sem WhatsApp conectado",
+  "tests": [
+    "Contrato da extensão explicita protocolo e operações",
+    "Link de canal é interpretado sem fazer requisição HTTP arbitrária",
+    "Normalização mantém seguidores reais e permissão do provedor",
+    "Seguidores ausentes não viram métrica inventada",
+    "Criação usa método Baileys e devolve proprietário após sucesso",
+    "Publicação preserva JID newsletter e devolve somente chave segura",
+    "Seguidor não publica nem edita canal",
+    "Administrador publica mas não exclui canal do proprietário",
+    "Propriedade desconhecida não autoriza exclusão",
+    "Dono pode excluir canal usando método específico",
+    "Imagem usa buffer e não URL remota não validada",
+    "Mídia inválida e JID de pessoa são recusados",
+    "Leitura de publicações decodifica somente texto e ID",
+    "Sincronização sem consulta MEX disponível exige atualização clara",
+    "Sincronização consulta canais vinculados usando leitura MEX autenticada",
+    "Consulta elimina duplicados e ignora JID de pessoa sem criar contato",
+    "Lista vazia explícita é válida e preserva ausência de métricas",
+    "Consulta com erro GraphQL não devolve segredo nem lista vazia de sucesso",
+    "Resposta com formato inesperado ou JSON inválido falha de forma explícita",
+    "Limite de consulta é informado sem inventar completude da lista",
+    "Extensão recusa montagem sem guards obrigatórios",
+    "Rotas reais Express exigem chave",
+    "Endpoint de sincronização mantém autenticação e retorna canais reais do socket",
+    "Rota Express autenticada acessa socket da instância",
+    "Query não contorna guards por correspondência de URL",
+    "Erro de provedor não reflete chave ou corpo sensível"
+  ]
+}
