@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/evolution-foundation/evolution-api",
+  "version": "2.3.7",
+  "commit": "cd800f2976e1e5b682fbf86a01ee4d85ae61f370",
+  "baileys": "7.0.0-rc.9",
+  "fixture_sha256": {
+    "api.routes.ts": "c37858426f87331619ccf75e0b2e002a550dab408895c8b1bcb6ef0be2fcc932",
+    "api.package.json": "5006d0ae1cbd0566835a9152840593497565a4eb1b6f2541a5c7a7a8d6e4ad30"
+  }
+}
